@@ -6,6 +6,6 @@ For an easier use of these data files on Google Colab, please follow the next st
 ```py
 from pandas import read_csv
 repo = "https://github.com/Vicente-G/data-mining/"
-RED_DATA = read_csv(repo + "red.csv")
+RED_WINE_DATAFRAME = read_csv(repo + "red_wine.csv")
 ```
-Running the last example the file `red.csv` should be loaded in Google Colab as a `DataFrame` from `pandas` in the `RED_DATA` variable.
+Running the last example the file `red_wine.csv` should be loaded in Google Colab as a `DataFrame` from `pandas` in the `RED_WINE_DATAFRAME` variable.
