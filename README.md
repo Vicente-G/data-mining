@@ -1,6 +1,6 @@
 # Data-mining
 This repo will have uploaded and updated all the data files required for the assignments of the data mining course at the UOH in 2022.
-These data sets aren't from my authorship or property, but they are open source, I found the datasets on: [UCI ML Repository](http://archive.ics.uci.edu/ml/index.php), [Kaggle](https://kaggle.com), and more.
+These data sets aren't from my authorship or property, they are open source, I found the datasets on: [UCI ML Repository](http://archive.ics.uci.edu/ml/index.php), [Kaggle](https://kaggle.com), and more.
 
 I might share this repo as it can help on charging the data at Google Colab in an easier way. If any problem with this implementation is recognized, please contact me with my name `Vicente-G` via pull-request/issues.
 
@@ -12,4 +12,8 @@ RED_WINE_DATAFRAME = read_csv(repo + "red_wine.csv")
 ```
 By running the last example, the file `red_wine.csv` should be loaded in Google Colab as a `DataFrame` from `pandas` in the `RED_WINE_DATAFRAME` variable.
 
-The course has ended, so I'll upload my assignments on this repo, they'll be on `ipynb` format, so, they can be used on Google Colab by uploading them there, every assignment have been done with Sklearn from Python, a ML library for classificators, some of them have some team work, but I'm the author of almost all the code which is explained on spanish, as the assignments were on that language. If anyone is interested on a translation, please contact me via pull-request/issue as I said before.
+### News
+
+[Winter 2022] The course has ended, so I'll upload my assignments on this repo, they'll be on `ipynb` format, so, they can be used on Google Colab by uploading them there, every assignment have been done with Sklearn from Python, a ML library for classificators, some of them have some team work, but I'm the author of almost all the code which is explained on spanish, as the assignments were on that language. If anyone is interested on a translation, please contact me via pull-request/issue as I said before.
+
+[Spring 2022] New assignments that require datasets are now part of my week, so this repo will serve as host for those datasets which will be used at IA's Introduction course at UOH again in 2022, and probably I'll keep it updated on this course as well, so if you are there too, feel free to use this host!
